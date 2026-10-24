@@ -6,7 +6,7 @@ import CheckoutForm from './CheckoutForm';
 import Complete from './Complete';
 import "./App.css";
 
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe(process.env.VITE_APP_STRIPE_PUBLISHABLE_KEY);
 
 // Pantalla de inicio con el gato triste
 const Home = ({ onDonate }) => {
