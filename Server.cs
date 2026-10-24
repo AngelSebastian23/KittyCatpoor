@@ -52,13 +52,14 @@ namespace server.Controllers
               });
           });
 
-          services.AddSingleton(new StripeClient(System.Environment.GetEnvironmentVariable("STRIPE_SECRET_KEY")));
+
+         services.AddSingleton(new StripeClient(System.Environment.GetEnvironmentVariable("STRIPE_SECRET_KEY")));
+
       }
 
       public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
       {
-            if (env
-            .IsDevelopment()) app.UseDeveloperExceptionPage();
+            if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
             app.UseCors("AllowAll");
             app.UseRouting();

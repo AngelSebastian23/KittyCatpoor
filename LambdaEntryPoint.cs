@@ -1,9 +1,10 @@
+
 using Amazon.Lambda.AspNetCoreServer;
 using Microsoft.AspNetCore.Hosting;
 
 namespace server.Controllers
 {
-    public class LambdaEntryPoint : APIGatewayProxyFunction
+    public class LambdaEntryPoint : APIGatewayHttpApiV2ProxyFunction
     {
         protected override void Init(IWebHostBuilder builder)
         {

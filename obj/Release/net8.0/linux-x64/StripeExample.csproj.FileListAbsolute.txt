@@ -45,3 +45,4 @@ C:\Users\revel\OneDrive\Desktop\CatMiau\bin\Release\net8.0\linux-x64\Amazon.Lamb
 C:\Users\revel\OneDrive\Desktop\CatMiau\bin\Release\net8.0\linux-x64\Amazon.Lambda.AspNetCoreServer.Hosting.dll
 C:\Users\revel\OneDrive\Desktop\CatMiau\bin\Release\net8.0\linux-x64\Amazon.Lambda.RuntimeSupport.dll
 C:\Users\revel\OneDrive\Desktop\CatMiau\bin\Release\net8.0\linux-x64\SnapshotRestore.Registry.dll
+C:\Users\revel\OneDrive\Desktop\CatMiau\obj\Release\net8.0\linux-x64\StripeExample.sourcelink.json
